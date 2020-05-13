@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Myriad Pro Light';
+    src: url('../fonts/MyriadPro-Light.eot');
+    src: url('../fonts/MyriadPro-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MyriadPro-Light.woff') format('woff'),
+    url('../fonts/MyriadPro-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    src: url('../fonts/MyriadPro-Regular.eot');
+    src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MyriadPro-Regular.woff') format('woff'),
+    url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Myriad Pro Semibold';
+    src: url('../fonts/MyriadPro-Semibold.eot');
+    src: url('../fonts/MyriadPro-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MyriadPro-Semibold.woff') format('woff'),
+    url('../fonts/MyriadPro-Semibold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'Myriad Pro Bold';
+    src: url('../MyriadPro-Bold.eot');
+    src: url('../MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../MyriadPro-Bold.woff') format('woff'),
+    url('../MyriadPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'Myriad Pro Black';
+    src: url('../MyriadPro-Black.eot');
+    src: url('../MyriadPro-Black.eot?#iefix') format('embedded-opentype'),
+    url('../MyriadPro-Black.woff') format('woff'),
+    url('../MyriadPro-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@mixin bold {
+    font-family: 'Myriad Pro Black', sans-serif;
+    font-size: 9.3rem;
+    font-weight: bold;
+
+}
+@mixin semibold {
+    font-family: 'Myriad Pro Semibold', sans-serif;
+}
+@mixin regular {
+    font-family: 'Myriad Pro Regular', sans-serif;
+    font-size: 1.5rem;
+}
+@mixin light {
+    font-family: 'Myriad Pro Light', sans-serif;
+}

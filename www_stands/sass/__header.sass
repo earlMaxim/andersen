@@ -1,0 +1,81 @@
+@import '__colors'
+@import '__fonts'
+
+// .main-nav
+//     min-height: 128px
+//     max-width: 1200px
+//     margin-left: auto
+//     margin-right: auto
+//     display: flex
+//     align-items: center
+//     &__primary
+//         margin-left: auto
+//         margin-right: auto
+//         display: flex
+//         justify-content: space-between
+//         min-width: 100%
+// .nav-item a
+//     color: $linksColor
+// .nav-item a:hover
+//     color: $blue
+
+.main-nav
+    min-height: 128px
+    max-width: 1200px
+    margin-left: auto
+    margin-right: auto
+    display: flex
+    
+    align-items: center
+    .nav-logo
+        align-self: center
+    &__primary
+        // margin-left: auto
+        // margin-right: auto
+        display: flex
+        justify-content: space-evenly
+        width: 100%
+.nav-item a
+    color: $linksColor
+.nav-item a:hover
+    color: $blue
+
+.hero
+    max-width: 1200px
+    margin-top: 200px
+    margin-left: auto
+    margin-right: auto
+    text-align: center
+    position: relative
+    &__network-links
+        position: absolute
+        right: 0
+        top: 20%
+        .network-bar
+            display: flex
+            flex-flow: column
+        .network-link
+            background-color: $blue
+            width: 47px
+            height: 47px
+            border-radius: 50%
+            color: #fff
+            position: relative
+            margin-bottom: 2.1rem
+    &-title
+        +bold
+        display: flex
+        justify-content: center
+        margin-left: auto
+        margin-right: auto
+        margin-bottom: 80px
+        &_span
+            position: relative
+    &-span
+        font-size: 2.3rem
+    &-btns
+        margin-top: 140px
+        margin-bottom: 228px
+    &__btn
+        margin: 0px 23px 0px 23px
+       

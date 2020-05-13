@@ -1,0 +1,392 @@
+@import '__colors'
+
+.section123
+    max-width: 1560px
+    width: 100%
+    background-color: $background
+    padding-top: 150px
+    padding-right: 244px
+    padding-left: 244px
+    margin-left: auto
+    margin-right: auto
+    margin-bottom: 140px
+    &-top
+        display: flex
+        &-left
+            color: #fff
+            padding-right: 160px
+        &-right
+            p
+                padding-bottom: 66px
+    &-bottom
+        padding-top: 150px
+        padding-bottom:: 210px
+        display: flex
+        justify-content: space-around
+        .col1-3
+            width: 30%
+            p
+                padding-top: 40px
+                // max-width: 217px
+           
+.website_link
+    color: $blue
+    position: relative
+.website_link::after 
+    content: ''
+    position: absolute
+    border: 7px solid transparent
+    border-left: 9px solid $blue
+    margin-left: 45px
+    top: 20%
+.sectionh1
+    margin-bottom: 35px
+.bluesquear
+    background-color: $blue
+    height: 85px
+    width: 85px
+    display: inline-flex
+    justify-content: center
+    align-items: center
+    margin-right: 15px
+
+.section-contacts
+    background-color: $background
+    .container1560_regularText
+        padding-top: 7.5rem
+        max-width: 380px
+        width: 100%
+    .container-contacts
+        display: flex
+        width: 100%
+    .contact
+        padding-top: 7.5rem
+        padding-bottom: 4rem
+        padding-right: 0.5rem
+        padding-left: 2.2rem
+        width: 31%
+        justify-content: space-between
+        &__name, &__phone
+            color: #fff
+            font-size: 2rem
+            padding-bottom: 16px
+            position: relative
+        &__name::after
+            width: 6px
+            height: 136px
+            content: ''
+            background-color: #00bff2
+            position: absolute
+            left: -22px
+            top: -8px
+        &__job
+            color: $gray
+            font-size: 1.5rem
+            padding-bottom: 40px
+        &__phone a 
+            color: #fff
+        &__networks
+            color: #fff
+            font-size: 3rem
+            display: flex
+            a 
+                color: #fff
+            i
+                padding-right: 16px
+                padding-left: 16px
+        &:hover
+            background-color: #fff
+        &:hover .contact__name 
+            color: $black
+        &:hover .contact__job
+            color: $darkgrey
+        &:hover a
+            color: $black
+        &:hover i
+            color: $blue
+            
+
+
+.rewiew
+    color: $black    
+    text-align: center
+    +regular      
+    font-size: 2rem 
+    padding: 80px 0 80px 0
+    .fa-star
+        color: gold
+        
+
+.ourexpirience
+    padding-bottom: 144px
+    .container
+        background-color: $background
+        width: 100%
+        position: relative
+        border-radius: 10px;
+        box-shadow: -28.6px 30.7px 32px 0 rgba(0, 0, 0, 0.17)
+        .ourexpirience__photo
+            top: 25%
+            left: 10%
+            position: absolute
+        .ourexpirience-fix
+            max-width: 930px
+            padding: 0 5px 0 5px
+            width: 100%
+            margin: 0 auto 0 auto
+            position: relative
+            h1
+                +bold 
+                color: $blue
+                font-size: 2rem
+                padding-bottom: 45px
+                padding-top: 105px
+            .regularText
+                font-size: 3rem
+            .contact
+                padding-left: 27px
+                padding-top: 155px
+                padding-bottom: 120px
+                &__name
+                    +light
+                    font-size: 1.5rem
+                    color: #fff
+                    position: relative
+                &__name::after
+                    width: 6px
+                    height: 50px
+                    content: ''
+                    background-color: #00bff2
+                    position: absolute
+                    left: -27px
+                    top: -8px
+                &__job
+                    color: $gray
+.benefites
+    max-width: 1800px
+    width: 100%
+    display: flex
+    flex-wrap: wrap
+    margin: 0 auto 0 auto
+    &-card 
+        width: 33%
+        height: 613px
+        min-width: 420px
+        display: flex
+        flex-direction: column
+        // margin: 0 auto 0 auto
+        margin-bottom: 99px
+        padding-top: 120px
+        .card__picture
+            text-align: center
+        .card__name
+            +bold
+            padding-top: 40px
+            font-size: 5.3rem 
+            text-align: center
+            position: relative
+        .card__name:after
+            content: ""
+            width: 26px
+            height: 26px
+            border-radius: 50%
+            background-color: $blue
+            position: absolute
+            top: 26px
+        .card__info
+            padding-left: 140px
+            padding-right: 140px
+            +semibold
+            text-align: center
+            padding-top: 42px
+            font-size: 1.4rem
+        .card__slogan
+            +semibold
+            text-align: center
+            padding-top: 22px
+            padding-left: 140px
+            padding-right: 140px
+            font-size: 1.4rem
+    &-card--blue
+        background-color: $background
+        box-shadow: -28.6px 30.7px 32px 0 rgba(0, 0, 0, 0.17)
+        color: #fff
+        padding-top: 50px
+.destinatioan
+    background: url(../img/london.png)
+    background-size: cover
+    padding-top: 215px
+    padding-bottom: 250px
+    background-repeat: no-repeat
+    margin-bottom: 50px
+    .container
+        display: flex
+        justify-content: end
+        flex-direction: column
+        position: relative
+    .container:after , .container:before
+        position: absolute
+        font-size: 7rem
+        color: #fff
+        top: 40%
+        cursor: pointer
+    .container:after 
+        content: '\203A'
+        right: 20px
+    .container:before
+        content: '\2039'
+        left: 20px
+
+        
+    
+    &__input
+        +bold
+        padding-top: 20px
+        padding-bottom: 14px
+        font-size: 2.2rem
+        border: none
+        text-align: center
+        max-width: 720px
+        width: 100%
+        margin-left: auto
+        margin-right: auto
+        margin-bottom: 60px
+    &__citys
+        +semibold
+        font-size: 1.8rem
+        color: #fff
+        max-width: 940px
+        text-align: center
+        margin-left: auto
+        margin-right: auto
+        margin-bottom: 70px
+    &__btn
+        width: 272px
+        height: 77px
+        border-radius: 38.7px
+        background-color: $blue
+        color: #fff !important
+        padding-top: 1.2rem !important
+        margin-left: auto
+        margin-right: auto
+.container-our
+    display: flex
+    justify-content: space-between
+    padding-bottom: 120px
+    .our
+        display: flex
+        flex-direction: column
+    .blog
+        max-width: 763px
+        width: 100%
+        h3
+           text-align: center
+        &__area
+            margin-top: 57px
+            padding-bottom: 35px
+            max-width: 763px
+            width: 100%
+            background-color: $background
+            box-shadow: -28.6px 30.7px 16px 0 rgba(0, 0, 0, 0.17)
+        &__post
+            padding-top: 80px
+            margin-left: auto
+            margin-right: auto
+            max-width: 430px
+            padding-right: 5px
+            padding-left: 5px
+            font-size: 1.8rem
+            .post-date
+                color: $gray
+                padding-bottom: 25px
+            .post-text
+                color: #fff
+                +light
+            .post-detail
+                font-size: 1.5rem
+                color: $gray
+                padding-top: 22px
+
+.application
+    h3
+        padding-left: 55px
+    &__cards
+        margin-top: 57px
+        margin-bottom: 100px
+        display: flex
+        align-items: center
+        .app-card
+            width: 184px
+            height: 176px
+            box-shadow: -28.6px 30.7px 16px 0 rgba(122, 134, 221, 0.17)
+            background-color: $background
+            margin-right: 4px
+            margin-left: 4px
+            &__icon
+                font-size: 3rem
+                text-align: center
+                padding-bottom: 20px
+                padding-top: 56px
+            &__name
+                font-size: 1.4rem
+                color: $gray
+                text-align: center
+        .app-card--active
+            width: 260px
+            height: 248px
+            box-shadow: -28.6px 30.7px 16px 0 rgba(122, 134, 221, 0.17)
+            position: relative
+            background-color: $blue
+            .app-card__icon
+                text-align: center
+                padding-bottom: 30px
+                padding-top: 56px
+            .app-card__name
+                +light
+                font-size: 3rem
+                color: #fff
+                text-align: center
+        .app-card--active:after
+            content: "\2794"
+            color: #ffffff
+            font-size: 2rem
+            position: absolute
+            left: 45%
+            top: 80%
+
+    .website_link
+        padding-left: 300px
+.documents
+    display: flex
+    max-width: 935px
+    justify-content: space-between
+    padding-top: 215px
+    &-about 
+        max-width: 335px
+        p
+            color:  $darkgrey
+
+    &-row
+        .doc
+            display: flex
+            margin-bottom: 99px
+            &__img
+                width: 64px 
+                height: 93px
+                background-color: #1e2533
+                margin-right: 45px
+            &__text
+                h4 
+                    font-size: 1.2rem
+                    padding-bottom: 29px
+                p 
+                    color:  $darkgrey
+                    font-size: 1.1rem
+                    max-width: 227px
+
+
+    
+
+        
+
+
